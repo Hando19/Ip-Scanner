@@ -8,9 +8,9 @@ IP Scanner (Multi-Subnet, Labeled)
 
 Example subnets.json:
 {
-  "TeraV": "192.168.28.0/24",
-  "Barn": "192.168.29.0/24",
-  "Greenhouse": "192.168.30.0/24"
+   "Office": "192.168.1.0/24",
+  "Warehouse": "192.168.2.0/24",
+  "Lab": "10.0.0.0/24"
 }
 """
 
@@ -273,3 +273,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
